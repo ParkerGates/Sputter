@@ -1,0 +1,40 @@
+.adj_cont {
+    display: flex;
+    width: auto;
+    height: 100vh;
+}
+
+.adj_cont_resize_hor {
+    width: .2rem;
+    cursor: ew-resize;
+    background-color: aquamarine;
+}
+.adj_cont_resize_vert {
+    height: .2rem;
+    background-color: aquamarine;
+    cursor: ns-resize;
+}
+
+.adj_cont_left {
+    display: flex;
+    width: 70vw;
+}
+.adj_cont_left_content {
+    flex-grow: 10;
+}
+.adj_cont_right {
+    display: flex;
+    flex-grow: 10;
+}
+.adj_cont_right_g {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 10;
+
+}
+.adj_cont_right_top {
+    height: 50vh; /*=======================*/
+}
+.adj_cont_right_bot {
+    flex-grow: 10;
+}
